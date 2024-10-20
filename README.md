@@ -13,3 +13,5 @@
 * Copies and makes executable two scripts: convert_to_gguf.sh and setup.sh
 
 **Functionality:** The Docker image can be used to run PyTorch workloads on an AMD GPU, leveraging the performance of ROCm. The setup.sh script, which is run when the container is started, sets up the environment and prepares the image for use.
+
+*["requests":2,"requestDuration":"PT6.158772608S","inTokens":733,"outTokens":376,"tps":62.666666666666664]*
