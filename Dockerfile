@@ -28,6 +28,7 @@ WORKDIR /workspace
 RUN pip install trl
 RUN pip install peft
 RUN pip install transformers datasets huggingface-hub scipy
+RUN pip install grokadamw schedulefree
 
 RUN git clone https://github.com/ggerganov/llama.cpp.git
 WORKDIR /workspace/llama.cpp
